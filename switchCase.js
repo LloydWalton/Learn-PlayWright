@@ -37,3 +37,6 @@ weekday(6);
 weekday(7);
 
 console.log("Enough");
+
+console.log("Test creating new branch");
+
