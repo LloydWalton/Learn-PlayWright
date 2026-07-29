@@ -36,4 +36,5 @@ weekday(5);
 weekday(6);
 weekday(7);
 
-console.log("Enough");
+
+
