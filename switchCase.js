@@ -28,10 +28,10 @@ function weekday(day) {
 }
 
 weekday(0);
-// weekday(1);
-// weekday(2);
-// weekday(3);
-// weekday(4);
-// weekday(5);
-// weekday(6);
-// weekday(7);
+weekday(1);
+weekday(2);
+weekday(3);
+weekday(4);
+weekday(5);
+weekday(6);
+weekday(7);
