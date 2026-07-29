@@ -32,6 +32,9 @@ weekday(1);
 weekday(2);
 weekday(3);
 
+console.log("EOD");
+
+
 
 
 
