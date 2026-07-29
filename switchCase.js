@@ -31,6 +31,7 @@ weekday(0);
 weekday(1);
 weekday(2);
 weekday(3);
+weekday(4);
 
 
 
