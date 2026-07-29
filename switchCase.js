@@ -36,11 +36,5 @@ weekday(5);
 weekday(6);
 weekday(7);
 
-console.log("Enough");
-
-console.log("Test creating new branch");
-
-
-console.log("Test creating new branch");
 
 
