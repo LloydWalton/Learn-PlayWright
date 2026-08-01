@@ -97,7 +97,7 @@ for (const a in age2) { // give the index
     console.log(age2[a]);
 
 }
-
+console.log('****************************************************************');
 for (const a1 of age2) { // give the values
 
     console.log(a1);
