@@ -44,7 +44,67 @@ let employees = [
 
     }
 ]
-
-
 let seniorEmployee = employees.filter((e) => e.age >= 50);
 console.log(seniorEmployee);
+console.log("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&");
+
+let num = [1, 2, 3, 4, 5];
+
+let total = num.reduce((acc, num) => acc + num, 0);
+
+console.log(total);
+
+
+// max number in array
+console.log("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&");
+
+let numb = [10, 50, 30, 55, 12, 98];
+
+const maxNumber = numb.reduce((max, num) => {
+    if (num > max) {
+        return num
+    }
+    else {
+        return max;
+    }
+}, numb[0]
+);
+console.log("max number is: ", maxNumber);
+
+
+
+
+let list = [
+    {
+        id: 1,
+        name: "apple",
+        price: 100
+    },
+    {
+        id: 2,
+        name: "banana",
+        price: 200
+    },
+    {
+        id: 3,
+        name: "orange",
+        price: 300
+    },
+    {
+        id: 4,
+        name: "grapes",
+        price: 400
+    },
+    {
+        id: 5,
+        name: "mango",
+        price: 500
+    }
+
+]
+let totalPrice = list.reduce((totalprice, item) => {
+    return totalprice + item.price;
+}, 0)
+console.log("total price is: ", totalPrice);
+
+console.log("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
